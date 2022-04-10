@@ -3,3 +3,542 @@
 *::after{
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+ul{
+    list-style: none;
+}
+
+:placeholder-shown{
+    border: none;
+}
+
+.header{
+    background-image: url(../images/bg-knife.jpg);
+    min-height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Jura', sans-serif;
+    
+}
+
+.container{
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__top{
+    background-color: rgba(33, 33, 33, 0.8);
+    margin: 0 auto;
+    max-height: 71px;   
+    min-width: 1440px;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+}
+
+.menu__nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.menu__nav-list{
+    display: flex;
+}
+
+.list-item + .list-item{
+    margin-left: 27px;
+}
+
+.phone{
+    margin-left: 27px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__content{
+    padding-top: 75px;
+}
+
+.header__title{
+    font-size: 41px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.header__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.header__btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #C80000;
+    border-radius: 27px;
+    padding: 16px 34px 16px;
+    background: transparent;
+    margin-top: 39px;
+    margin-bottom: 72px;
+}
+
+.header__footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 76px;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    
+}
+
+.arrow__left{
+    margin-right: auto;
+    color: #fff;
+    width: 15px;
+    margin-left: 16px;
+    padding-top: 24px;
+    
+}
+
+.footer__menu-list{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+   
+}
+
+.footer__menu-item{
+    margin-right: 42px;
+    width: 19px;
+    height: 19px;
+}
+
+.arrow__right{
+    margin-left: auto;
+    padding-top: 24px;
+    color: #fff;
+    width: 15px;
+    margin-right: 16px;  
+}
+
+.footer__menu-item:hover{
+    background: #fff;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.main{
+    background-color: #373737;
+    padding: 60px 0 60px;  
+    
+}
+
+.about__item{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 88px;
+}
+
+.about__kinds-img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1020px;
+    display: flex;
+    padding-bottom: 31px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.about__kinds-text{
+    max-width: 1020px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.about__kinds-text:hover{
+    color: #FF0000;
+    transition: 1s;
+}
+
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about__content-img{
+    background-image: url(../images/1knife.jpg);
+    width: 590px;
+    height: 481px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;  
+    
+}
+
+.about__text{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    padding-top: 425px;
+    margin-left: 25px;
+}
+
+.arrow__right-about{
+    padding-top: 449px; 
+    padding-right: 28px;
+    padding-bottom: 28px;
+}
+
+.about__content-knife{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 60px;
+}
+
+.about__content-a__box{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.about__content-a{
+    background-color: #272727;
+    border-radius: 14px;
+    width: 286px;
+    height: 412px;
+    max-width: 1200px;
+}
+
+.about__content-a__text{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-top: 12px;
+    display: block;
+}
+
+.knife__sq01{
+    padding-top: 53px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.knife__jj001{
+    padding-top: 89px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.p__text{
+    margin: 0;
+}
+
+.p__price{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.p__price span{
+    color: #FF3232;
+    padding-left: 28px;
+}
+
+.about__plus-btn{
+    margin-top: 29px;
+    margin-left: 240px; 
+}
+
+.about__purchase-btn{
+    width: 72px;
+    height: 37px;
+    background-color: #C80000;
+    border-radius: 18px;
+    margin-top: 18px;
+    margin-left: 198px;
+}
+
+.about__purchase{
+    padding-left: 13px;
+}
+
+.about__plus-btn__red{
+    width: 37px;
+    height: 37px;
+    background-color: #C80000;
+    border-radius: 50px;
+    margin-top: 18px;
+    margin-left: 236px;
+}
+
+
+.about__content-c{
+    background-image: url(../images/bg-inst.png);
+    border-radius: 14px;
+    width: 286px;
+    height: 412px;
+    font-weight: 600;
+    display: flex;
+}
+
+.about__inst{
+    padding-left: 107px;
+    padding-top: 39px;
+    padding-bottom: 350px;
+    
+}
+
+.about__plus-inst{
+    color: #fff;
+    width: 23px;
+    height: 23px;
+}
+
+.about__content-a__text-inst{
+    padding-top: 37px;
+    padding-left: 18px;
+}
+
+.p__text-inst{
+    margin: 0;
+}
+
+.about_news{
+    width: 100%;
+    text-align: center;
+}
+
+.about__title{
+    font-size: 27px;
+    line-height: 42px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+}
+
+.contacts__form-input{
+    background-color: #272727;
+    border-radius: 6px;
+    width: 276px;
+    height: 59px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    
+}
+
+.contacts__form-input::placeholder{
+    color: rgba(255, 255, 255, 0.1);
+    background-image: url(../images/right.svg);
+    background-repeat: no-repeat;
+    background-position: right 13% bottom 50%;
+    padding-left: 26px;
+}
+
+.about__content-b__box{
+    margin-top: 49px;
+}
+
+.about__content-b{
+    background-color: #272727;
+    border-radius: 14px;
+    width: 286px;
+    height: 412px;
+    max-width: 1200px;
+}
+
+.about__hr{
+    margin-top: 61px;
+    color: #fff;
+    opacity: 0.1;
+}
+
+.news__item{
+    margin-top: 60px;
+    margin-left: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.news__content{
+    display: flex;
+    font-weight: 600;
+}
+
+.news__content-btn + .news__content-btn{
+    margin-left: 53px;
+}
+
+.news__content-btn {
+	position: relative;
+	color: rgba(255, 255, 255, 0.1); 
+	line-height: 1; 
+	text-decoration: none; 
+}
+
+.news__content-btn:hover{
+    color: #fff;
+    transition:  0.3s;
+}
+
+.news__content-btn:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #C80000; 
+	content: "";
+	transition:  0.3s ease-out; 
+}
+
+.news__content-btn:hover:after,
+.news__content-btn:focus:after {
+	width: 100%; 
+}
+
+.news__hr{
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    opacity: 0.1;
+}
+
+.tuotown{
+    margin-top: 60px;
+}
+
+.tuotown__inner{
+    margin-bottom: 60px;
+}    
+
+.tuotown__title{
+    display: flex;
+    justify-content: start;
+}
+
+.tuotown__title-text{
+    display: block;
+    margin-top: 8px;
+    padding-left: 81px;
+}
+
+.tuotown__text{
+    display: block;
+}
+
+.tuotown-1{
+    width: 289px;
+    height: 300px;
+    border-radius: 14px;
+}
+
+.title{
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.tuotown__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 51px;
+}
+
+.tuotown__content{
+    display: flex;
+    justify-content: start;
+}
+
+.tuotown__content-text{
+    display: block;
+    padding-top: 23px;
+    
+}
+
+.tuotown__p{
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.tuotown__title{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 15px;
+}
+
+.tuotown-2{
+    width: 300px;
+    height: 362px;
+    border-radius: 14px;
+    margin-left: 82px;
+    margin-top: 39px;
+}
+
+.tuotown__hr{
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
