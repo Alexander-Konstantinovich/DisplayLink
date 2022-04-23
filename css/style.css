@@ -15,6 +15,7 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+    display: inline;
 }
 
 button{
@@ -53,7 +54,6 @@ ul{
     background-color: rgba(33, 33, 33, 0.8);
     margin: 0 auto;
     max-height: 71px;   
-    min-width: 1440px;
     width: 100%;
 }
 
@@ -103,6 +103,10 @@ ul{
     line-height: 23px;
 }
 
+.header__text-media{
+    display: none;
+}
+
 .header__btn{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -128,8 +132,7 @@ ul{
     justify-content: space-between;
     width: 100%;
     background: transparent;
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .arrow__left{
@@ -138,7 +141,6 @@ ul{
     width: 15px;
     margin-left: 16px;
     padding-top: 24px;
-    
 }
 
 .footer__menu-list{
@@ -170,8 +172,7 @@ ul{
 
 .main{
     background-color: #373737;
-    padding: 60px 0 60px;  
-    
+    padding: 60px 0 35px;  
 }
 
 .about__item{
@@ -328,7 +329,6 @@ ul{
     padding-left: 107px;
     padding-top: 39px;
     padding-bottom: 350px;
-    
 }
 
 .about__plus-inst{
@@ -366,7 +366,6 @@ ul{
     font-size: 15px;
     line-height: 18px;
     color: #fff;
-    
 }
 
 .contacts__form-input::placeholder{
@@ -484,6 +483,7 @@ ul{
 }
 
 .tuotown__text{
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -499,7 +499,6 @@ ul{
 .tuotown__content-text{
     display: block;
     padding-top: 23px;
-    
 }
 
 .tuotown__p{
@@ -530,15 +529,368 @@ ul{
     opacity: 0.1;
 }
 
+.how-to{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.how-to__title{
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 31px;
+}
+
+.how-to__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.how-to__content-box__a{
+    background-image: url(/images/how-to1.png);
+    width: 380px;
+    height: 465px;
+    border-radius: 14px;
+}
+
+.how-to__content-box__b{
+    background-image: url(/images/how-to2.png);
+    width: 380px;
+    height: 465px;
+    border-radius: 14px;
+}
+
+.how-to__content-box__c{
+    background-image: url(/images/how-to3.png);
+    width: 380px;
+    height: 465px;
+    border-radius: 14px;
+}
+
+.how-to__box-a__data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 23px;
+    padding-right: 25px;
+    padding-left: 217px;
+    margin: 0;
+}
+
+.how-to__box-a__content{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+    padding-top: 344px;
+    padding-left: 37px;
+}
+
+.how-to__box-c{
+    width: 380px;
+    height: 83px;
+    background-color: #C80000;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-top: 331px;
+}
+
+.how-to__box-c__content{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    padding-top: 13px;
+    margin-left: 37px;
+    margin-bottom: 22px;
+}
+
+.contacts{
+    background-color: #272727;
+}
+
+.contacts__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__content{
+    margin-top: 44px;
+}
+
+.contacts__content-title{
+    display: flex;
+    max-width: 380px;
+}
+
+.contacts__logo{
+    width: 194px;
+    height: 47px;
+}
+
+.contacts__content-text__title{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    padding-left: 26px;
+    margin: 0;
+}
+
+.contacts__content-text{
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.contacts__content-text__1{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 29px;
+    margin: 0;
+}
+
+.contacts__content-text__2{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 24px;
+    margin: 0;
+}
+
+.contacts__info{
+    display: block;
+    max-width: 423px;
+    margin-left: 64px;
+}
+
+.contacts__info-about{
+    margin-top: 47px;
+}
+
+.title__contacts-info{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.contacts__info-about__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 383px;
+}
 
 
+.contacts__info-about__item-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .5);
+}
 
+.contacts__catalog{
+    margin: 0;
+}  
 
+.contacts__catalog-about{
+    margin-top: 34px;
+}
 
+.title__contacts-catalog{
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+}
 
+.contacts__catalog-menu{
+    max-width: 423px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
 
+.contacts__catalog-menu__item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .5);  
+}
 
+.contacts__catalog-menu__item-link{
+    padding-right: 15px;
+}
 
+.contacts__catalog-menu__item-link__acsess{
+    padding-right: 245px;
+}
 
+.contacts__network{
+    margin-top: 60px;
+    margin-bottom: 51px;
+}
 
+.contacts__network-about{
+   display: flex;
+   margin: 0;
+}
 
+.title__contacts-network{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.contacts__network-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.contacts__network-item + .contacts__network-item{
+    padding-left: 8px;
+}
+
+.contacts__address{
+    margin-left: 64px;
+    max-width: 279px;
+    margin-top: 47px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;   
+}
+
+.tel__address{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-top: 23px;
+}
+
+.mail__address-contacts{
+    padding-top: 9px;
+}
+
+.mail__address{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .8);
+}
+
+.time__address{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, .8);
+    margin: 0;
+}
+
+.time{
+    margin: 0;
+}
+
+.address__moscow{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    padding-top: 18px;
+    color: rgba(255, 255, 255, .8);
+    margin: 0;
+}
+
+.img__address{
+    padding-top: 32px;
+}
+
+.address__link{
+    width: 87px;
+    height: 31px;
+}
+
+.footer__inner{
+    padding-top: 32px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text{
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .2);
+}
+
+.footer__img{
+    width: 156px;
+    height: 17px;
+    margin-right: 114px;
+}
+
+@media (max-width: 768px){
+    .header{
+        background-image: url(/images/bg-media.jpg);
+        background: linear-gradient();
+    }
+    .phone{
+        font-family: 'Jura', sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    .header__content{
+        padding-top: 60px;
+        padding-left: 69px;
+        padding-right: 97px;
+    }
+    .header__title{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .header__br{
+        display: none;
+    }
+
+    .header__text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 20px;
+    }
+    .header__btn{
+        margin-top: 27px;
+        margin-bottom: 181px;
+    }
+    .header__text-br{
+        display: none;
+    }
+    .header__text-media{
+        display: initial;
+    }
+    .header__footer{
+        padding-bottom: 61px;
+    }
+    .footer__menu{
+        padding-right: 85px;
+        padding-left: 85px;
+    }
+    
+}
