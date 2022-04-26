@@ -147,7 +147,6 @@ ul{
     display: flex;
     justify-content: center;
     font-size: 15px;
-   
 }
 
 .footer__menu-item{
@@ -186,8 +185,9 @@ ul{
     margin-right: auto;
     max-width: 1020px;
     display: flex;
-    padding-bottom: 31px;
+    margin-bottom: 31px;
     color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
 .about__kinds-text{
@@ -491,6 +491,10 @@ ul{
     padding-top: 51px;
 }
 
+.tuotown__text-p{
+    display: contents;
+}
+
 .tuotown__content{
     display: flex;
     justify-content: start;
@@ -515,12 +519,20 @@ ul{
     padding-top: 15px;
 }
 
+.tuotown__title-br{
+    display: none;
+}
+
 .tuotown-2{
     width: 300px;
     height: 362px;
     border-radius: 14px;
     margin-left: 82px;
     margin-top: 39px;
+}
+
+.tuotown__p-text-img{
+    display: none;
 }
 
 .tuotown__hr{
@@ -725,6 +737,10 @@ ul{
     padding-right: 15px;
 }
 
+.contacts__catalog-span{
+    display: none;
+}
+
 .contacts__catalog-menu__item-link__acsess{
     padding-right: 245px;
 }
@@ -763,11 +779,12 @@ ul{
     margin-top: 47px;
 }
 
-.title{
+.title__address{
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight: 600;
-    line-height: 28px;   
+    line-height: 28px;  
+    margin: 0; 
 }
 
 .tel__address{
@@ -809,6 +826,10 @@ ul{
     padding-top: 18px;
     color: rgba(255, 255, 255, .8);
     margin: 0;
+}
+
+.address__moscow-br{
+    display: none;
 }
 
 .img__address{
@@ -892,5 +913,271 @@ ul{
         padding-right: 85px;
         padding-left: 85px;
     }
-    
+    .about__content-knife{
+        justify-content: space-around;
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    .about__content-img{
+        margin-bottom: 52px;
+    }
+    .about__purchase-btn{
+        background-color: transparent;
+    }
+    .about__purchase{
+        display: none;
+    }
+    .about__purchase-btn{
+        margin-top: 22px;
+        margin-left: 218px;
+    }
+    .about__plus-btn__red{
+        background-color: transparent;
+    }
+    .about__hr{
+        margin-top: 0px;
+    }
+    .news__item{
+        margin-top: 0px;
+    }
+    .news__hr{
+        display: none;
+    }
+    .tuotown{
+        margin-right: 69px;
+        margin-left: 69px;
+    }
+    .title{
+        font-family: 'Jura', sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tuotown__br{
+        display: none;
+    }
+    .tuotown__title-br{
+        display: initial;
+    }
+    .tuotown__text{
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(173, 172, 172, 1);
+        padding-top: 25px;
+        text-transform: none;
+    }
+    .tuotown__title-text{
+        margin-top: 79px;
+        padding-left: 30px;
+    }
+    .tuotown__text-p{
+        display: initial;
+    }
+    .tuotown__content-text {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+    }
+    .tuotown__title{
+        font-family: 'Jura', sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        order: -1;
+        margin: 0;
+    }
+    .tuotown__p{
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(173, 172, 172, 1);
+        padding-top: 25px;
+        margin: 0;
+    }
+    .tuotown__p-text{
+        display: none;
+    }
+    .tuotown__p-content{
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(173, 172, 172, 1);
+    }
+    .tuotown-1{
+        width: 300px;
+    }
+    .tuotown-2{
+        height: 302px;
+        margin-left: 0px;
+        margin-bottom: 153px;
+    }
+
+    .tuotown__2-img{
+        margin-left: 30px;
+    }
+
+    .tuotown__p-text-img{
+        display: initial;
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(173, 172, 172, 1);
+    }
+    .tuotown__p-text-img__2{
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(173, 172, 172, 1);
+    }
+    .tuotown__hr{
+        display: none;
+    }
+    .how-to{
+        margin-bottom: 110px;
+    }
+    .how-to__title{
+        text-align: center;
+        line-height: 41px;
+        margin-bottom: 60px;
+    }
+    .how-to__content{
+        display: block;
+        margin-right: 69px;
+        margin-left: 59px;
+    }
+    .how-to__content-box__a{
+        background-image: url(/images/how-to-1.png);
+        width: 630px;
+        margin-top: 30px;
+    }
+    .how-to__content-box__b{
+        background-image: url(/images/how-to-2.png);
+        width: 630px;
+        margin-top: 30px;
+    }
+
+    .how-to__content-box__c{
+        background-image: url(/images/how-to-3.png);
+        width: 630px;
+        margin-top: 30px;
+    }
+    .how-to__box-c{
+        width: 630px;
+        height: 78px;
+        margin-top: 387px;
+    }
+    .how-to__box-a__data{
+        padding-left: 472px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .how-to__box-a__content-br{
+        display: none;
+    }
+    .how-to__box-a__content{
+        max-width: 510px;
+    }
+    .contacts{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contacts__inner{
+        display: block;
+    }
+    .contacts__content{
+        padding-top: 60px;
+    }
+    .contacts__content-text__1-br{
+        display: none;
+    }
+    .contacts__content-text__title{
+        font-weight: 400;
+    }
+    .contacts__content-text{
+        color: rgba(173, 172, 172, 1);
+    }
+    .contacts__info{
+        margin-left: 0px;
+        max-width: 632px;
+    }
+    .title__contacts-info{
+        font-family: 'Jura', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .title__contacts-catalog{
+        font-family: 'Jura', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .contacts__catalog-menu{
+        max-width: 554px;
+    }
+    .title__contacts-network{
+        font-family: 'Jura', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .contacts__info-about__item-link{
+        line-height: 19px;
+    }
+    .contacts__catalog-menu__item-link{
+        line-height: 19px;
+    }
+    .contacts__catalog-menu__item:nth-child(4) {
+        display: none;
+    }
+    .contacts__catalog-menu__item-link__acsess{
+        line-height: 19px;
+        padding-right: 0px;
+    }
+    .contacts__catalog-span{
+        display: initial;
+    }
+    .contacts__network-menu{
+        padding-left: 40px;
+    }
+    .contacts__network-item + .contacts__network-item{
+        padding-left: 15px;
+    }
+    .contacts__address{
+        max-width: 727px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .contacts__address-services{
+        display: flex;
+        align-items: baseline;
+    }
+    .tel__address{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .address__moscow-br{
+        display: initial;
+    }
+    .mail__address-contacts{
+        padding-left: 30px;
+    }
+    .time__address{
+        padding-left: 30px;
+    }
+    .address__moscow{
+        padding-left: 30px;
+    }
+    .img__address{
+        padding-top: 8px;
+        padding-bottom: 60px;
+    }
+    .footer__inner{
+        padding-top: 15px;
+    }
+    .footer__text{
+        max-width: 550px;
+    } 
+    .footer__img{
+        margin-right: 5px;
+        margin-top: 4px;
+    }
 }
