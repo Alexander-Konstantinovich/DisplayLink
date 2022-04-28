@@ -78,6 +78,10 @@ ul{
     margin-left: 27px;
 }
 
+.logo__320-media{
+    display: none;
+}
+
 .phone{
     margin-left: 27px;
     color: #fff;
@@ -85,6 +89,14 @@ ul{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+}
+
+.menu__img-purchase{
+    display: none;
+}
+
+.menu__img-phone{
+    display: none;
 }
 
 .header__content{
@@ -211,13 +223,12 @@ ul{
 }
 
 .about__content-img{
-    background-image: url(../images/1knife.jpg);
+    background-image: url(../images/about-320.png);
     width: 590px;
     height: 481px;
     border-radius: 14px;
     display: flex;
     justify-content: space-between;  
-    
 }
 
 .about__text{
@@ -541,6 +552,14 @@ ul{
     opacity: 0.1;
 }
 
+.tuotown__p-text-img{
+    display: none;
+}
+
+.tuotown__p-text-img__2{
+    display: none;
+}
+
 .how-to{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -639,6 +658,10 @@ ul{
 .contacts__logo{
     width: 194px;
     height: 47px;
+}
+
+.contacts__logo-media__320{
+    display: none;
 }
 
 .contacts__content-text__title{
@@ -819,6 +842,10 @@ ul{
     margin: 0;
 }
 
+.moscow__contacts-media__320{
+    display: none;
+}
+
 .address__moscow{
     font-size: 14px;
     line-height: 19px;
@@ -834,6 +861,10 @@ ul{
 
 .img__address{
     padding-top: 32px;
+}
+
+.img__address-media-720{
+    display: none;
 }
 
 .address__link{
@@ -866,7 +897,10 @@ ul{
 @media (max-width: 768px){
     .header{
         background-image: url(/images/bg-media.jpg);
-        background: linear-gradient();
+    }
+    .menu{
+        margin-left: 19px;
+        margin-right: 19px;
     }
     .phone{
         font-family: 'Jura', sans-serif;
@@ -876,7 +910,7 @@ ul{
     }
     .header__content{
         padding-top: 60px;
-        padding-left: 69px;
+        padding-left: 59px;
         padding-right: 97px;
     }
     .header__title{
@@ -910,16 +944,25 @@ ul{
         padding-bottom: 61px;
     }
     .footer__menu{
-        padding-right: 85px;
-        padding-left: 85px;
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+    .about__item{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 72px;
     }
     .about__content-knife{
         justify-content: space-around;
-        margin-right: 65px;
-        margin-left: 65px;
+        margin-right: 59px;
+        margin-left: 59px;
+    }
+    .about__content{
+        justify-content: space-around;
     }
     .about__content-img{
         margin-bottom: 52px;
+        width: 630px;
     }
     .about__purchase-btn{
         background-color: transparent;
@@ -1145,30 +1188,49 @@ ul{
         max-width: 727px;
         margin-left: 0px;
         margin-top: 30px;
+        padding-bottom: 30px;
     }
     .contacts__address-services{
         display: flex;
         align-items: baseline;
     }
+    .contacts__address-services__320-media{
+        display: flex;
+    }
+    .contacts__address-time__320{
+        display: flex;
+    }
     .tel__address{
         font-size: 16px;
         line-height: 19px;
+        padding-top: 0px;
     }
     .address__moscow-br{
         display: initial;
     }
+    
     .mail__address-contacts{
         padding-left: 30px;
+        padding-top: 0px;
     }
     .time__address{
         padding-left: 30px;
     }
     .address__moscow{
         padding-left: 30px;
+        margin-top: 30px;
+        padding-top: 0px;
     }
     .img__address{
         padding-top: 8px;
         padding-bottom: 60px;
+        display: none;
+    }
+    .img__address-media-720{
+        display: none;
+    }
+    .img__address-media-720{
+        display: initial;
     }
     .footer__inner{
         padding-top: 15px;
@@ -1179,5 +1241,355 @@ ul{
     .footer__img{
         margin-right: 5px;
         margin-top: 4px;
+    }
+}
+@media (max-width: 320px){
+    .header{
+        background: linear-gradient(180deg, #000000 41%, rgba(0, 0, 0, 0) 59%), url(/images/bg-320.jpg)0/60%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .header__top{
+        width: 320px;
+        height: 43px;
+    }
+    .menu{
+        height: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .logo__320-media{
+        display: initial;
+        padding-top: 18px;
+        padding-left: 71px;
+    }
+    .logo-type{
+        display: none;
+    }
+    .menu__img{
+        padding-top: 23px;
+    }
+    .phone{
+        display: none;
+    }
+    .menu__img-phone{
+        display: initial;
+        width: 22px;
+        height: 22px;
+        color: #fff;
+        margin-top: 25px;
+        margin-left: 29px;
+    }
+    .list-item:nth-child(2) {
+        display: none;
+    }
+    .list-item:nth-child(4) {
+        display: none;
+    }
+    .list-item:last-child {
+        display: none;
+    }
+    .menu__img-purchase{
+        display: initial;
+        margin-top: 17px;
+        margin-left: 29px;
+    }
+    .menu__img-purshase{
+        display: none;
+    }
+    .header__content{
+        padding: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 40px;
+    }
+    .header__title{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .header__text{
+        font-weight: 400;
+        font-size: 14px;
+        padding-right: 75px;
+    }
+    .header__btn::before{
+        content: 'купить';
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .header__btn{
+        background: #C80000;
+        width: 165px;
+        height: 53px;
+    }
+    .btn-header{
+        display: none;
+    }
+    .header__footer{
+        display: none;
+    }
+    .main{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .about__content-knife{
+        padding-bottom: 15px;
+    }
+    .about__item{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .about__kinds-text{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .about__content{
+        display: block;
+    }
+    .about__content-img{
+        width: 290px;
+        height: 290px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: -30px;
+    }
+    .news__content-btn + .news__content-btn {
+        margin-left: 25px;
+    }
+    .news__item{
+        margin-left: 0px;
+    }
+    .about__text {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+        padding-top: 165px;
+        margin-left: 10px;
+    }
+    .arrow__right-about{
+        display: none;
+    }
+    .about__content-c{
+        margin-bottom: 30px;
+    }
+    .contacts__form-input{
+        width: 100%;
+    }
+    .about__content-b__box {
+        margin-top: 20px;
+    }
+    .tuotown{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .tuotown__inner{
+        margin: 0;
+    }
+    .tuotown__item{
+        display: block;
+    }
+    .tuotown__title{
+        display: block;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .tuotown__content{
+        display: block;
+    }
+    .tuotown-1{
+        width: 100%;
+    }
+    .tuotown__title-text{
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 0;
+    }
+    .title{
+        font-size: 22px;
+        line-height: 26px;
+    } 
+    .tuotown__2-img{
+        margin-left: -5px;
+    }
+    .tuotown-2{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .tuotown__p-text-img__2{
+        display: initial;
+    }
+    .how-to{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .how-to__content{
+        margin: 0px;
+    }
+    .how-to__title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .how-to__box-a__data {
+        padding-left: 157px;
+        padding-top: 10px;
+        padding-right: 15px;
+        font-size: 12px;
+    }
+    .how-to__content-box__a{
+        width: 290px;
+        height: 220px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .how-to__content-box__b{
+        width: 290px;
+        height: 220px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .how-to__content-box__c{
+        width: 290px;
+        height: 220px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .how-to__box-c{
+        width: 290px;
+        height: 40px;
+        margin-top: 137px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .how-to__box-a__content{
+        max-width: 288px;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 138px;
+        margin-left: 12px;
+        padding: 0;
+    }
+    .how-to__box-c__content {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        padding-top: 3px;
+        margin-left: 12px;
+    }
+    .contacts__content-title{
+        height: 25px;
+    }
+    .contacts__logo{
+        display: none;
+    }
+    .contacts__logo-media__320{
+        display: initial;
+    }
+    .contacts__content-text__title{
+        padding-left: 5px;
+        margin-top: -5px;
+    }
+    .contacts__content {
+        padding-top: 22px;
+    }
+    .contacts__content-text__1 {
+        font-size: 11px;
+        line-height: 19px;
+        padding-top: 19px;
+    }
+    .contacts__content-text__1 {
+        font-size: 11px;
+        line-height: 19px;
+        padding-top: 19px;
+    }
+    .contacts__content-text {
+        margin-bottom: 10px;
+    }
+    .contacts__info-about {
+        margin-top: 20px;
+    }
+    .contacts__info-about__menu{
+        max-width: 280px;
+        flex-wrap: wrap;  
+        line-height: 25px;
+    }
+    .contacts__catalog-about {
+        margin-top: 20px;
+    }
+    .contacts__catalog-menu {
+        max-width: 280px;
+    }
+    .contacts__catalog-menu__item-link {
+        padding-right: 0px;
+    }
+    .contacts__network {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .contacts__network-about {
+        display: block;
+    }
+    .contacts__network-menu{
+        padding: 0;
+        margin-top: 15px;
+        justify-content: flex-start;
+    }
+    .contacts__network-item + .contacts__network-item{
+        padding-left: 15px;
+    }
+    .contacts__address {
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+    .contacts__address-services{
+        display: block;
+    }
+    .contacts__address-services__320-media{
+        display: flex;
+        padding-top: 10px;
+    }
+    .mail__address-contacts{
+        padding-top: 0px;
+    }
+    .contacts__address-time__320{
+        display: flex;
+    }
+    .address__moscow{
+        display: none;
+    }
+    .moscow__contacts-media__320{
+        display: initial;
+    }
+    .address__moscow-media__320{
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, .8);
+    }
+    .time__address{
+        padding: 0;
+        padding-top: 5px;
+    }
+    .img__address{
+        padding-top: 0px;
+        padding-left: 17px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        display: initial;
+    }
+    .img__address-media-720{
+        display: none;
+    }
+    .footer__content{
+        display: block;
+    }
+    .footer__img{
+        margin-top: 15px;
     }
 }
